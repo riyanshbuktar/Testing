@@ -39,10 +39,10 @@ def main():
         if predict[0] == 1:
             
 
-            st.success('The person will default with sureity of {} %'.format(round(np.max(proba)*100),2))
+            st.success('The person will not donate blood next time{} %'.format(round(np.max(proba)*100),2))
 
         else:
-            st.success('The person will not default with sureity of {} %'.format(round(np.max(proba)*100),2))
+            st.success('The person will surely donate blood next time{} %'.format(round(np.max(proba)*100),2))
 
 
 
