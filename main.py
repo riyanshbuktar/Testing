@@ -17,10 +17,10 @@ def blood_default(features):
 
 
 def main():
-    st.title("Blood Donation Default Prediction")
+    st.title("Blood Donation Prediction")
     html_temp = """
     <div style="background-color:#dd88b3 ;padding:10px">
-    <h2 style="color:white;text-align:center;">Blood Donation Default Prediction App </h2>
+    <h2 style="color:white;text-align:center;">Blood Donation Prediction App </h2>
     </div>
     """    
     st.markdown(html_temp, unsafe_allow_html=True)
